@@ -29,7 +29,7 @@ class BotHandlerMixin:
     requests.post(message_url, json=prepared_data)
 
 class TelegramBot(BotHandlerMixin, Bottle):
-  BOT_URL = 'https://api.telegram.org/bot864529098:AAEP6WsN7l3XzXtAeh8bRjhUA6OVjVrMtYg/'
+  BOT_URL = 'https://api.telegram.org/bot1167756173:AAH_xiIIRFaSeyLIbb_Ac9lUSmtiWJWRg7s/'
 
   def __init__(self, *args, **kwargs):
     super(TelegramBot, self).__init__()
