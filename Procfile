@@ -1,1 +1,1 @@
-web: python devto-example.py
+web: python bot.py
